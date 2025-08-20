@@ -1,0 +1,33 @@
+.hee-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .display {
+    background-color: #220000;  /* 赤黒っぽい背景 */
+    color: white;              /* 白文字 */
+    font-size: 2rem;
+    font-family: 'Digital-7', monospace; /* 電子っぽいフォント(別途用意) */
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 80px;
+    text-align: center;
+  }
+  
+  .hee-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ccc;
+    border: 5px solid #004080; /* 青い枠っぽく */
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .hee-button:active {
+    transform: scale(0.95);
+  }
+  
